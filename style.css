@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  #top-intro {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+  .about-me {
+    font-size: 15px;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  
+  
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  .first-project {
+    height: 600px;
+    width: 700px;
+  }
+
+  #quiz-app > p {
+    font-size: 15px;
+  }
+
+  .live-link {
+    color: blue;
+    font-size: 15px;
+  }
