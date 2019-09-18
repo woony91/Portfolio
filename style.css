@@ -12,23 +12,28 @@
   }
   
   #top-intro {
+    font-family: 'Rubik', sans-serif;
     font-size: 25px;
     text-align: left;
     padding-left: 40px;
   }
 
   h1 {
+    font-family: 'Rubik', sans-serif;
+    line-height: 10px;
     font-size: 100px;
   }
 
-  .about-me {
-    font-size: 15px;
+  h4, p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
   }
-  
+
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: #117094;
   }
   
   nav {
@@ -46,13 +51,13 @@
   }
   
   section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
+    min-height: 100px;
+    padding: 5% 0;
+    background-color: #4a9ab8;
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    background-color: #8eb3c1;
   }
   
   .first-project {
@@ -61,12 +66,12 @@
   }
 
   #quiz-app > p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .live-link {
     color: blue;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .navbar {
@@ -76,7 +81,7 @@
     padding: 0px;
     height: 25px;
 
-    background-color: #43444D;
+    background-color: #117094;
 }
 
   ul {
@@ -92,10 +97,11 @@
     color: white;
 }
 .menu > li {
-  float: right;
-  padding: 10px;
+  float: left;
+  padding: 12px;
   color: #43444D;
   margin-bottom: 50px;
+  font-size: 12px;
 }
 
 /* @media screen and (max-width: 599px) {
