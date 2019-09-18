@@ -98,9 +98,9 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 599px) {
+/* @media screen and (max-width: 599px) {
   .navbar {
     overflow: hidden;
   }
 
-}
+} */
