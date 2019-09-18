@@ -68,3 +68,39 @@
     color: blue;
     font-size: 15px;
   }
+
+  .navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    height: 25px;
+
+    background-color: #43444D;
+}
+
+  ul {
+    list-style: none;
+}
+  .hamburger {
+
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: right;
+    position: relative;
+    color: white;
+}
+.menu > li {
+  float: right;
+  padding: 10px;
+  color: #43444D;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 599px) {
+  .navbar {
+    overflow: hidden;
+  }
+
+}
