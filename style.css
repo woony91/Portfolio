@@ -15,13 +15,15 @@
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 100px;
+    margin-top: 100px;
   }
 
   h1 {
     font-family: 'Rubik', sans-serif;
-    line-height: 10px;
     font-size: 100px;
+    text-align: center;
+    margin-top: -20px;
   }
 
   h4, p {
@@ -79,7 +81,7 @@
     left: 0;
     right: 0;
     padding: 0px;
-    height: 25px;
+    height: 40px;
 
     background-color: #117094;
 }
@@ -98,15 +100,34 @@
 }
 .menu > li {
   float: left;
-  padding: 12px;
-  color: #43444D;
-  margin-bottom: 50px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 18px;
   font-size: 12px;
+  margin-top: -28px;
 }
 
-/* @media screen and (max-width: 599px) {
-  .navbar {
-    overflow: hidden;
+@media screen and (min-width: 320px;) {
+  .hamburger {
+    visibility: visible
   }
+    nav > .menu {
+    visibility: hidden
+  }
+}
 
-} */
+@media screen and (max-width: 880px) {
+  .hamburger {
+    visibility: visible
+  }
+    nav > .menu {
+    visibility: hidden
+  }
+}
+
+@media screen and (min-width: 881px) {
+  .hamburger {
+    visibility: hidden;
+    display: none;
+}
+}
