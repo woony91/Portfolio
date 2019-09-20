@@ -11,9 +11,10 @@
     <nav class="navbar">
     <div class="hamburger">&#9776;</div>
     <ul class="menu">
-        <li class="current navlist"><a href="index.html">Home</a></li>
-        <li class="navlist"><a href="index.html">Projects</a></li>
-        <li class="navlist"><a href="index.html">Contact</a></li>
+        <li class="navlist"><a class = "bio" href="#about">About</a></li>
+        <li class="navlist"><a class = "list-of-projects" href="#portfolio">Projects</a></li>
+        <li class="navlist"><a href="https://www.linkedin.com/in/hyundavidsong/">LinkedIn</a></li>
+        <li class="navlist"><a href="https://github.com/woony91">Github</a></li>
     </ul>
 </nav>
 <main role="main">
@@ -50,27 +51,19 @@ layout and includes at least 1 project.  -->
             <img class="first-project" src="Screenshots/first.jpg" alt="First page of my quiz app">
             <p>Given a set of 5 questions, test your basketball knowledge and see if you can get all of them right!</p>
             <!-- Make a better link image for live and repo link -->
-            <a href="https://woony91.github.io/" class = "live-link">Quiz App</a>
-            <a href="https://github.com/woony91/baskbetballquiz.git" class = "live-link">Repo</a>
+            <div class = "quiz-app-links">
+                <a href="https://woony91.github.io/" class = "live-link">Quiz App</a>
+                  |  
+                <a href="https://github.com/woony91/baskbetballquiz.git" class = "live-link">Repo</a>
+            </div>
+            
         </div>
-        </section>
-
-        <section>
-            Under Construction
-        </section>
-
-        <section>
-            Under Construction
         </section>
 
     </main>
     <footer role="content-info">
-        <!-- need to add images for each link -->
-        <a href="https://facebook.com" class = "live-link">Facebook</a>
-        <a href="https://instagram.com" class = "live-link">Instagram</a>
-        <a href="https://twitter.com" class = "live-link">Twitter</a>
-        <a href="https://soundcloud.com" class = "live-link">SoundCloud</a>
-        <a href="https://github.com" class = "live-link">Git</a>
+        <p>Click below to send me an email!</p>
+        <a href="mailto: hyun.davidsong@gmail.com" class = "live-link"><img id="email" src="https://icon-library.net/images/email-icon-jpg/email-icon-jpg-27.jpg" alt="Email Icon"></a>
     </footer>
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"

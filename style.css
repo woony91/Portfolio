@@ -46,16 +46,13 @@
     z-index: 10;
   }
   
-  
+
   
   header {
     padding: 5% 0;
   }
   
-  a {
-    color: white;
-    text-decoration: inherit;
-  }
+
 
   .about-me-section {
     display: flex;
@@ -138,6 +135,46 @@
   margin-top: -28px;
 }
 
+nav div ul li:hover {
+  cursor: pointer;
+}
+
+#email {
+  height: auto;
+  width: 50px;
+  margin-bottom: -20px;
+}
+
+#email:hover {
+  height: auto;
+  width: 55px;
+}
+
+a {color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.live-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.live-link {
+  color: black;
+}
+
+footer > p {
+  color: white;
+  margin-bottom: -5px;
+}
+
+.navlist:hover{
+  font-size: 20px;
+}
 
 @media screen and (min-width: 320px;) {
   .hamburger {
