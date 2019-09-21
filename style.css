@@ -79,6 +79,11 @@
     align-self: center;
   }
   
+  #quiz-app > p {
+    width: 50%;
+    align-self: center;
+  }
+
   section:nth-child(even) {
     background-color: #8eb3c1;
   }
@@ -176,23 +181,23 @@ footer > p {
   font-size: 20px;
 }
 
-@media screen and (min-width: 320px;) {
+/* @media screen and (min-width: 320px;) {
   .hamburger {
-    visibility: visible
-  }
-    nav > .menu {
     visibility: hidden
   }
-}
+    nav > .menu {
+    visibility: visible
+  }
+} */
 
-@media screen and (max-width: 880px) {
+/* @media screen and (max-width: 880px) {
   .hamburger {
     visibility: visible
   }
     nav > .menu {
     visibility: hidden
   }
-}
+} */
 
 @media screen and (min-width: 881px) {
   .hamburger {
