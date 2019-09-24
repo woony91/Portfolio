@@ -3,49 +3,76 @@
 <head>
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav role="navigation">Add content for about, github, linkedin, projects</nav>
-    <main role="main">
-        <header role="banner">
-            <h4 id = "top-intro">They call me</h4>
-            <h1>DAVE SONG</h1>
+    <nav class="navbar">
+    <!-- <div class="hamburger">&#9776;</div> -->
+    <ul class="menu">
+        <li class="navlist"><a class = "bio" href="#about">About</a></li>
+        <li class="navlist"><a class = "list-of-projects" href="#portfolio">Projects</a></li>
+        <li class="navlist"><a href="https://www.linkedin.com/in/hyundavidsong/">LinkedIn</a></li>
+        <li class="navlist"><a href="https://github.com/woony91">Github</a></li>
+    </ul>
+</nav>
+<main role="main">
+    <header role="banner">
+        <h4 id = "top-intro">They call me</h4>
+        <h1>DAVE SONG</h1>
         </header>
 
-        <section>
+        <section class = "about-me-section">
+            <!-- demonstrate passion for web dev and the desire to work on a team with great 
+                programmers demonstrates your personality outside of coding -->
             <h5>Some interesting things about me!</h5>
+            <div class="about">
             <p class = "about-me">I love to build structures and renovation projects but 
                     also technology. I went from building my very first 
                     gaming computer to coding my first basketball quiz. I 
                     am a gamer. I am an outdoor enthusiast. I am a dog lover. 
                     But more importantly, I am a web developer.</p>
     
-                <p class = "about-me">I am currently based out of Philadelphia and have graduated the 
-                    Front End Web Development Career Path bootcamp at Bloc. I love 
+            <p class = "about-me about2">I am currently based out of Philadelphia and have graduated the 
+                    Front End Web Development Career Path bootcamp at Bloc. I work 
+                    well with HTML, CSS, Javascript and jQuery. I love 
                     technology, which is what got me into the idea of coding. Ever 
                     since I have started, I have never looked back and constantly 
                     try to find different ways to make my ideas come to life!</p>
+                    </div>
 
         </section>
-
+<!-- PROJECTS has to be easy to find and each project is visible, has a clear undestandable
+layout and includes at least 1 project.  -->
         <section>
         <div id="quiz-app">
             <!-- Need to add an interactive method for image of quiz app
             Clicking on the image will send to separate page for quiz app for images and description -->
-            <p>Include IMG tag here</p>
-            <p>Given a set of 5 questions, test your basketball knowledge and see if you can get all of them right!</p>
+            <img class="first-project" src="Screenshots/first.jpg" alt="First page of my quiz app">
+            <p>Given a set of 5 questions, test your basketball knowledge and see if you can get all of them right with
+                this quiz application. This application was built using HTML, CSS, Javascript and jQuery.
+            </p>
             <!-- Make a better link image for live and repo link -->
-            <a href="https://woony91.github.io/" class = "live-link">Quiz App</a>
-            <a href="https://github.com/woony91/baskbetballquiz.git" class = "live-link">Repo</a>
+            <div><img src="" alt=""></div>
+            <div class = "quiz-app-links">
+                <a href="https://woony91.github.io/" class = "live-link">Quiz App</a>
+                  |  
+                <a href="https://github.com/woony91/baskbetballquiz.git" class = "live-link">Repo</a>
+            </div>
+            
         </div>
         </section>
 
     </main>
-    <footer role="email-info">
-        <!-- need to add images for each link -->
-        <p>add in email here</p>
+    <footer role="content-info">
+        <p>Click below to send me an email!</p>
+        <a href="mailto: hyun.davidsong@gmail.com" class = "live-link"><img id="email" src="https://icon-library.net/images/email-icon-jpg/email-icon-jpg-27.jpg" alt="Email Icon"></a>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -12,19 +12,31 @@ body {
 }
 
 #top-intro {
+  font-family: 'Rubik', sans-serif;
   font-size: 25px;
   text-align: left;
-  padding-left: 40px;
+  padding-left: 100px;
+  margin-top: 100px;
 }
 
 h1 {
+  font-family: 'Rubik', sans-serif;
   font-size: 100px;
+  text-align: center;
+  margin-top: -20px;
 }
 
-.about-me {
-  font-size: 15px;
+h4, p {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  overflow: hidden;
 }
 
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #117094;
+}
 
 nav {
   position: fixed;
@@ -34,28 +46,162 @@ nav {
   z-index: 10;
 }
 
+
+
 header {
-  padding: 12% 0;
-}
-
-section {
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: white;
-  border: 1px black solid;
+  padding: 5% 0;
 }
 
 
-.first-project {
-  height: 600px;
-  width: 700px;
+
+.about-me-section {
+  display: flex;
+  background-color: #4a9ab8;
+  flex-direction: column;
+  width: 100%;
+}
+
+h5 {
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+}
+
+.about-me {
+  margin-top: -20px;
+}
+
+.about2 {
+  margin-top: 10px;
+}
+
+.about {
+  width: 50%;
+  align-self: center;
 }
 
 #quiz-app > p {
-  font-size: 15px;
+  width: 50%;
+  align-self: center;
+}
+
+section:nth-child(even) {
+  background-color: #8eb3c1;
+}
+
+#quiz-app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first-project {
+  height: auto;
+  width: 80%;
+  align-self: center;
+}
+
+#quiz-app > p {
+  font-size: 16px;
 }
 
 .live-link {
   color: blue;
-  font-size: 15px;
+  font-size: 16px;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0px;
+  height: 40px;
+
+  background-color: #117094;
+}
+
+ul {
+  list-style: none;
+}
+.hamburger {
+
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  color: white;
+}
+.menu > li {
+float: left;
+padding: 20px;
+color: white;
+margin-bottom: 18px;
+font-size: 12px;
+margin-top: -28px;
+}
+
+nav div ul li:hover {
+cursor: pointer;
+}
+
+#email {
+height: auto;
+width: 50px;
+margin-bottom: -20px;
+}
+
+#email:hover {
+height: auto;
+width: 55px;
+}
+
+a {color: white;
+text-decoration: none;
+}
+
+a:visited {
+color: inherit;
+}
+
+.live-link:hover {
+color: blue;
+text-decoration: underline;
+}
+
+.live-link {
+color: black;
+}
+
+footer > p {
+color: white;
+margin-bottom: -5px;
+}
+
+.navlist:hover{
+font-size: 20px;
+}
+
+/* @media screen and (min-width: 320px;) {
+.hamburger {
+  visibility: hidden
+}
+  nav > .menu {
+  visibility: visible
+}
+} */
+
+/* @media screen and (max-width: 880px) {
+.hamburger {
+  visibility: visible
+}
+  nav > .menu {
+  visibility: hidden
+}
+} */
+
+@media screen and (min-width: 881px) {
+.hamburger {
+  visibility: hidden;
+  display: none;
+}
 }
